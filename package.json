@@ -1,8 +1,8 @@
 {
-  "name": "send-mail",
-  "version": "1.0.0",
+  "name": "send-email",
+  "version": "1.0.1",
   "description": "Simple formatted wrapper around the standard `AWS.SES.sendMail` function.",
-  "homepage": "",
+  "homepage": "https://github.com/CubetLabs/send-email",
   "author": "Vajahath Ahmed <vajuoff.1@gmail.com> (https://twitter.com/vajahath7)",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/... -.git"
+    "url": "git+https://github.com/CubetLabs/send-email.git"
   },
   "bugs": {
-    "url": "https://github.com/.../issues"
+    "url": "https://github.com/CubetLabs/send-email/issues"
   },
   "license": "MIT",
   "dependencies": {

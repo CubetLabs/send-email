@@ -5,7 +5,7 @@ Simple formatted wrapper around the standard `AWS.SES.sendMail` function. Email 
 ## Install
 
 ```
-npm i --save <github-user>/<repo>
+npm i --save CubetLabs/send-email
 ```
 
 This package is Typescript Ready. You don't have to install definitions additionally for using with Typescript.
@@ -17,9 +17,9 @@ The exposed `sendEmail` function returns a promise.
 Example:
 
 ```ts
-import { sendEmail } from 'repo/send-email';
+import { sendEmail } from 'send-email';
 // or
-const { sendEmail } = require('repo/send-email');
+const { sendEmail } = require('send-email');
 
 sendEmail(
   toAddresses: ['fluffy@cats.com', 'kity@cats.com'],
@@ -53,7 +53,7 @@ If you are using Typescript, you can pull the `IMailOptions` interface to constr
 Example:
 
 ```ts
-import {IMailOptions} from 'repo/send-mail';
+import {IMailOptions} from 'send-mail';
 
 const mailOptions: IMailOptions = {
   toAddresses,
