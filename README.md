@@ -8,7 +8,7 @@ Simple formatted wrapper around the standard `AWS.SES.sendMail` function. Email 
 npm i --save CubetLabs/send-email
 ```
 
-This package is Typescript Ready. You don't have to install definitions additionally for using with Typescript.
+This package is Typescript Ready. So you don't have to install definitions additionally for using with Typescript.
 
 ## Usage
 
